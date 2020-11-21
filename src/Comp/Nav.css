@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Squada+One&display=swap%27");
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  box-shadow: 1px 11px 22px 6px rgba(0, 0, 0, 0.5);
+  color: white;
+  font-family: "Squada One", cursive;
+  font-weight: 300;
+  z-index: 1;
+  width: 100vw;
+  position: fixed;
+  height: 10%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar__title  {
+  margin-right: auto;
+  font-weight: 900;
+  font-family: "Squada One", cursive;
+}
+.navbar h1{
+    font-weight: 900;
+}
+.navbar__item {
+  padding: 0px 10px;
+  cursor: pointer;
+  vertical-align: middle;
+}
+.navbar span {
+  color: #291d45;
+  font-family: "Squada One", cursive;
+}
+header {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+header p {
+  color: #291d45;
+}
+header p:hover {
+  text-decoration: none;
+}
